@@ -1,0 +1,47 @@
+#quote-box {
+  position: relative;
+  display: block;
+  width: 60vw;
+  margin: auto;
+  background: yellow;
+  top: 20vh;
+  padding: 10px;
+  box-shadow: 5px 10px #888;
+}
+
+button, a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color: #c0c0ff;
+}
+
+nav {
+  background-color:black;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+#logo, #contact {
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+}
+
+#logo {
+  width: 80vw;
+}
+
+#contact {
+  width: 20vw;
+}
